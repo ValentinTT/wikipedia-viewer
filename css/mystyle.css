@@ -1,0 +1,34 @@
+body,
+html {
+    margin: 0px;
+    padding: 0px;
+    background-color: #1e1e1e;
+    color: #f4f4f4;
+}
+
+.search-results {
+    color: #1e1e1e;
+}
+
+.collapsible-body {
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    outline: 0;
+}
+
+.white-anchor {
+    color: white;
+}
+
+.read-more-link {
+    transition: color .3s linear;
+    -moz-transition: color .3s linear;
+    -webkit-transition: color .3s linear;
+}
+
+.read-more-link:hover {
+    color: red;
+}
